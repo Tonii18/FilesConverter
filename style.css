@@ -1,0 +1,76 @@
+.main-div{
+    width: 434px;
+    height: 640px;
+    background-color: rgba(57, 57, 57, 1);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.title{
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    width: 60%;
+    margin: 20px auto;
+    padding-top: 25px;
+}
+
+.image{
+    width: 100%; /* Ajusta el ancho a 100% del contenedor */
+    height: auto; /* Mantiene la proporción original */
+    max-width: 200px; /* Limita el ancho máximo */
+    margin: 20px auto; /* Margen arriba y abajo */
+    display: block; /* Comportamiento de bloque */
+}
+
+.select{
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: white;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.word{
+    background-color: rgba(0, 102, 255, 1);
+    border-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    font-family: "Inter", sans-serif; /* Cambia la fuente del texto en los botones */
+    font-size: 20px; /* Ajusta el tamaño de la fuente */
+    font-weight: bold; /* Estilo en negrita */
+    
+}
+
+.pdf{
+    background-color: rgba(255, 0, 61, 1);
+    border-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    font-family: "Inter", sans-serif; /* Cambia la fuente del texto en los botones */
+    font-size: 20px; /* Ajusta el tamaño de la fuente */
+    font-weight: bold; /* Estilo en negrita */
+}
