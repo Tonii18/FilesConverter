@@ -61,6 +61,10 @@
     
 }
 
+.word:hover{
+    background-color: rgba(0, 194, 255, 1);
+}
+
 .pdf{
     background-color: rgba(255, 0, 61, 1);
     border-color: white;
@@ -73,4 +77,8 @@
     font-family: "Inter", sans-serif; /* Cambia la fuente del texto en los botones */
     font-size: 20px; /* Ajusta el tamaño de la fuente */
     font-weight: bold; /* Estilo en negrita */
+}
+
+.pdf:hover{
+    background-color: rgb(255, 61, 97);
 }
